@@ -1,0 +1,17 @@
+{
+  "name": "coquito-amarillo-captura",
+  "version": "1.0.0",
+  "description": "Sistema de captura y persistencia de pedidos en Datos.csv y MySQL para Coquito Amarillo S.A.S.",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node servidor.js"
+  },
+  "author": "José Pachón",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "mysql2": "^3.24.6"
+  }
+}
